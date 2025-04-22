@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="🚢 Viagem ao Titanic", layout="wide")
 
 # Carregar e tratar os dados
-df = pd.read_csv("./titanic/train.csv")
+df = pd.read_csv("./train.csv")
 
 df.rename(columns={
     'PassengerId': 'ID',
